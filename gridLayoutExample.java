@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.GridLayout;
-public class gridLayout {
-    gridLayout(){
+public class gridLayoutExample {
+    gridLayoutExample(){
         JFrame frame = new JFrame();
         JButton jb1 = new JButton("Button 1");
         JButton jb2 = new JButton("Button 2");
@@ -15,12 +15,13 @@ public class gridLayout {
 
         frame.add(panel);
         frame.pack();
+        frame.setLocationRelativeTo(null); // centers the frame on screen
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
     public static void main(String[] args) {
-    new gridLayout();
+        new gridLayoutExample();
     }
 }

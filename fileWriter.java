@@ -1,6 +1,4 @@
-
 import java.io.*;
-
 
 public class fileWriter {
     public static void main(String[] args) throws IOException{

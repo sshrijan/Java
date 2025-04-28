@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.FlowLayout;
 
-public class flowLayout {
+public class flowLayoutExample {
     public static void main(String[] args) {
         //create a new JFrame
         JFrame frame = new JFrame("My First JFrame");
@@ -19,8 +19,8 @@ public class flowLayout {
 
         frame.add(panel);
         frame.pack();
-        //make the frame visible
-        frame.setVisible(true);
+        frame.setLocationRelativeTo(null); // centers the frame on screen
+        frame.setVisible(true);//make the frame visible
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

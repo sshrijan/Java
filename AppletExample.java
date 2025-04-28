@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Applet1 {
+public class AppletExample {
     public static void main(String[] args) {
         //create the frame
         JFrame frame = new JFrame();
@@ -18,7 +18,6 @@ public class Applet1 {
         JTextField txt2 = new JTextField(5);
 
         JLabel lbl3 = new JLabel("Result : ");
-
         JButton btn = new JButton("Submit");
 
         //Add components to frame

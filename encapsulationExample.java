@@ -1,4 +1,4 @@
-public class Person {
+public class encapsulationExample {
     // Private variables
     private String name;
     private int age;
@@ -29,7 +29,7 @@ public class Person {
 
     // Main method inside the same class
     public static void main(String[] args) {
-        Person p = new Person();
+        encapsulationExample p = new encapsulationExample();
 
         p.setName("sshree");
         p.setAge(19);
