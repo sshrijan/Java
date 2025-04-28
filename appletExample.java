@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AppletExample {
+public class appletExample {
     public static void main(String[] args) {
         //create the frame
         JFrame frame = new JFrame();
