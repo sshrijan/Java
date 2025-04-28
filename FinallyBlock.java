@@ -1,10 +1,10 @@
 
-    public class TestFinallyBlock1{
-    public static void main(String args[]){
+    public class FinallyBlock {
+    public static void main(String[] args){
     try {
     System.out.println("Inside the try block");
     //below code throws divide by zero exception
-    int data=25/0;
+    int data = 25/0;
     System.out.println(data);
     }
     //cannot handle Arithmetic type exception

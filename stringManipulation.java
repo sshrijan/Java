@@ -1,4 +1,4 @@
-public class ToLowerCase{
+public class StringManipulation {
     public static void main(String[] args) {
         String str = "HELLO world";
         String lowerCaseString = str.toLowerCase().trim();

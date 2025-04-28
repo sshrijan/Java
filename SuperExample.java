@@ -12,7 +12,7 @@ class Dog extends Animal {
     }
 }
 
-class testSuper {
+public class SuperExample {
     public static void main(String args[]) {
         Dog d = new Dog();
         d.printColor("purple");
