@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.FileReader;
+import java.io.IOException;
+
 
 public class fileReader {
     public static void main(String[] args) throws IOException{

@@ -8,7 +8,6 @@ public class jframe {
         //create label
         JLabel label = new JLabel("Bca Third Semester Group");
 
-        
         //add the label to the frame
         frame.add(label);
         //set frame properties

@@ -1,5 +1,6 @@
-import java.io.*;
-
+import java.io.FileOutputStream;
+import java.io.BufferedOutputStream;
+import java.io.IOException;
 
 public class fileOutPutStream {
     public static void main(String[] args) throws IOException{
