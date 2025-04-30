@@ -11,7 +11,6 @@ public class method {
         }
     }
 }
-
 //public class method {
 //    public static void main(String[] args) {
 //        method m = new method();
