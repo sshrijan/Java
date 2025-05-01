@@ -1,3 +1,5 @@
+package Interface;
+
 interface walkable {
     void walk();
 }
@@ -13,10 +15,11 @@ class human implements walkable, swimmable {
     }
 }
 
-public class Interface {
+public class interfaceExample {
     public static void main(String[] args) {
         human h = new human();
         h.walk();
         h.swim();
     }
 }
+
